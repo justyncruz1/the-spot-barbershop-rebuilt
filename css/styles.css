@@ -517,8 +517,8 @@ p {
 .hero__scroll {
   position: absolute;
   bottom: 40px;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 0;
+  right: 0;
   z-index: 3;
   display: flex;
   flex-direction: column;
@@ -534,8 +534,7 @@ p {
   color: rgba(255, 255, 255, 0.5);
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  text-align: center;
-  width: 100%;
+  text-indent: 0.2em;
 }
 
 .hero__scroll-line {
