@@ -921,6 +921,15 @@ p {
   letter-spacing: 0.15em;
 }
 
+/* Stats on white background */
+.section:not(.section--dark):not(.section--black):not(.section--photo) .stat__label {
+  color: #555555;
+}
+
+.section:not(.section--dark):not(.section--black):not(.section--photo) .stat__number {
+  color: var(--color-text);
+}
+
 /* --- Testimonial --- */
 .testimonial-card {
   padding: 40px;
