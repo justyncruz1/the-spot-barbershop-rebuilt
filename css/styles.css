@@ -889,7 +889,7 @@ p {
 /* --- Stats --- */
 .stats-row {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 40px;
   text-align: center;
 }
@@ -1398,10 +1398,10 @@ p {
     margin-bottom: 40px;
   }
 
-  /* Services */
+  /* Services — force single column on mobile (overrides inline style) */
   .services-grid {
-    grid-template-columns: 1fr;
-    gap: 12px;
+    grid-template-columns: 1fr !important;
+    gap: 12px !important;
   }
 
   .service-card {
@@ -1439,10 +1439,10 @@ p {
     aspect-ratio: 4/3;
   }
 
-  /* Stats — centered 2-col */
+  /* Stats — always one row */
   .stats-row {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 32px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
     text-align: center;
   }
 
@@ -1618,8 +1618,8 @@ p {
   }
 
   .stats-row {
-    grid-template-columns: 1fr 1fr;
-    gap: 24px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
   }
 
   .stat__number {
