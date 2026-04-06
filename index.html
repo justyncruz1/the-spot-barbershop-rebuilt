@@ -238,7 +238,11 @@
   </section>
 
   <!-- STATS -->
-  <section class="section" style="background: var(--color-surface); border-top: 1px solid rgba(255,255,255,0.04); border-bottom: 1px solid rgba(255,255,255,0.04);">
+  <section class="section section--photo">
+    <div class="section__bg">
+      <img src="https://images.squarespace-cdn.com/content/v1/578040691b631b1a87a6f734/1468640586074-0S71DV6URX3IPRSG61KU/IMG_1547.jpg" alt="" width="2500" height="1667" loading="lazy">
+      <div class="section__bg-overlay"></div>
+    </div>
     <div class="container">
       <div class="stats-row">
         <div class="stat">
@@ -298,7 +302,11 @@
   </section>
 
   <!-- LOCATION -->
-  <section class="section section--dark" id="location">
+  <section class="section section--photo" id="location">
+    <div class="section__bg">
+      <img src="https://images.squarespace-cdn.com/content/v1/578040691b631b1a87a6f734/1468640122025-DJAJGI6SH9EL7K7KJDGZ/IMG_1584.jpg" alt="" width="2500" height="1667" loading="lazy">
+      <div class="section__bg-overlay"></div>
+    </div>
     <div class="container" style="max-width: 600px;">
       <div class="section__header reveal">
         <span class="section__label">Find Us</span>
@@ -344,9 +352,13 @@
   </section>
 
   <!-- CTA BANNER -->
-  <section class="cta-banner">
+  <section class="cta-banner" style="position: relative; overflow: hidden;">
+    <div class="section__bg">
+      <img src="https://images.squarespace-cdn.com/content/v1/578040691b631b1a87a6f734/1468029432786-ENAXOKEBJBNALJVH27FM/IMG_1552.jpg" alt="" width="2500" height="1667" loading="lazy" style="width:100%;height:100%;object-fit:cover;opacity:0.15;filter:contrast(1.15) brightness(0.5);border-radius:0;position:absolute;inset:0;">
+      <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.6),rgba(0,0,0,0.85));"></div>
+    </div>
     <div class="cta-banner__bg"></div>
-    <div class="container reveal">
+    <div class="container reveal" style="position:relative;z-index:1;">
       <h2 class="cta-banner__title">Ready to Look Your Best?</h2>
       <p class="cta-banner__text">Book online in 30 seconds. Walk out looking like you own the room.</p>
       <a href="https://my.setmore.com/bookingpage/8b411df7-c119-41e2-827f-726ddd953e0b" target="_blank" rel="noopener" class="btn btn--primary btn--large">Book Your Appointment</a>
