@@ -22,17 +22,17 @@
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,700;0,6..96,800;1,6..96,400;1,6..96,700&family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
   <!-- Styles -->
   <link rel="stylesheet" href="css/styles.css">
 
   <!-- LocalBusiness Schema -->
   <script type="application/ld+json">
-  [{
+  {
     "@context": "https://schema.org",
     "@type": "BarberShop",
-    "name": "The Spot Barbershop - Greenacres",
+    "name": "The Spot Barbershop",
     "url": "https://thespotbarbershopwpb.com",
     "telephone": "+1-561-429-3732",
     "address": {
@@ -47,31 +47,11 @@
       {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday"], "opens": "11:00", "closes": "19:00"},
       {"@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "10:00", "closes": "18:00"}
     ],
-    "description": "West Palm Beach's premier barbershop. Expert fades, hot towel shaves, and precision cuts by master barbers.",
+    "description": "Greenacres' premier barbershop. Expert fades, hot towel shaves, and precision cuts by master barbers Manny and Sammy.",
     "priceRange": "$$",
     "image": "https://images.squarespace-cdn.com/content/v1/578040691b631b1a87a6f734/1468455785521-O0IWCZCDUYCYX8IM0J1L/image-asset.jpeg",
     "sameAs": ["https://www.facebook.com/thespotbarbershopwpb/"]
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "BarberShop",
-    "name": "The Spot Barbershop - Lake Worth",
-    "url": "https://thespotbarbershopwpb.com",
-    "telephone": "+1-561-429-3732",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "4618 S Jog Road",
-      "addressLocality": "Lake Worth",
-      "addressRegion": "FL",
-      "postalCode": "33463",
-      "addressCountry": "US"
-    },
-    "openingHoursSpecification": [
-      {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday"], "opens": "11:00", "closes": "19:00"},
-      {"@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "10:00", "closes": "18:00"}
-    ],
-    "priceRange": "$$"
-  }]
+  }
   </script>
 </head>
 <body>
@@ -88,7 +68,6 @@
         <a href="pages/services.html" class="header__nav-link">Services</a>
         <a href="pages/gallery.html" class="header__nav-link">Gallery</a>
         <a href="pages/the-owners.html" class="header__nav-link">About</a>
-        <a href="pages/lake-worth.html" class="header__nav-link">Lake Worth</a>
       </nav>
       <a href="https://my.setmore.com/bookingpage/8b411df7-c119-41e2-827f-726ddd953e0b" target="_blank" rel="noopener" class="header__cta">Book Now</a>
       <button class="header__mobile-toggle" aria-label="Menu">
@@ -103,7 +82,6 @@
     <a href="pages/services.html" class="mobile-nav__link">Services</a>
     <a href="pages/gallery.html" class="mobile-nav__link">Gallery</a>
     <a href="pages/the-owners.html" class="mobile-nav__link">About</a>
-    <a href="pages/lake-worth.html" class="mobile-nav__link">Lake Worth</a>
     <a href="https://my.setmore.com/bookingpage/8b411df7-c119-41e2-827f-726ddd953e0b" target="_blank" rel="noopener" class="mobile-nav__link" style="color: var(--color-red);">Book Now</a>
     <div class="mobile-nav__contact">
       <a href="tel:5614293732" class="mobile-nav__phone">561-429-3732</a>
@@ -120,7 +98,7 @@
     <div class="hero__content">
       <div class="hero__badge">
         <span class="hero__badge-dot"></span>
-        West Palm Beach & Lake Worth
+        Greenacres, Florida
       </div>
       <h1 class="hero__title">Your Cut.<br><em>Your Standard.</em></h1>
       <p class="hero__subtitle">Master barbers Manny &amp; Sammy have been keeping West Palm Beach sharp for years. Walk out looking like the best version of yourself — every single time.</p>
@@ -166,7 +144,7 @@
           <div class="owner-bio__image-accent"></div>
         </div>
         <div class="owner-bio__content">
-          <span class="section__label">Est. West Palm Beach</span>
+          <span class="section__label">Est. Greenacres, FL</span>
           <h2 class="owner-bio__name" style="color: var(--color-white);">Built by Barbers.<br>Run Like <em style="color: var(--color-red);">Family.</em></h2>
           <div class="owner-bio__text">
             <p>Manuel and Samuel De La Torre — twin brothers, master barbers, and boxing fans — opened The Spot with one rule: the client always comes first.</p>
@@ -246,10 +224,6 @@
           <div class="stat__label">Years in Business</div>
         </div>
         <div class="stat">
-          <div class="stat__number"><span class="count-up" data-target="2">0</span></div>
-          <div class="stat__label">Locations</div>
-        </div>
-        <div class="stat">
           <div class="stat__number"><span class="count-up" data-target="5" data-suffix="">0</span></div>
           <div class="stat__label">Star Reviews</div>
         </div>
@@ -301,17 +275,19 @@
     </div>
   </section>
 
-  <!-- LOCATIONS -->
-  <section class="section section--dark" id="locations">
-    <div class="container">
+  <!-- LOCATION -->
+  <section class="section section--dark" id="location">
+    <div class="container" style="max-width: 600px;">
       <div class="section__header reveal">
         <span class="section__label">Find Us</span>
-        <h2 class="section__title" style="color: var(--color-white);">Two Locations. Same Standard.</h2>
-        <p class="section__subtitle">Wherever you are in Palm Beach County, your chair is waiting.</p>
+        <h2 class="section__title" style="color: var(--color-white);">Visit The Spot</h2>
+        <p class="section__subtitle">4618 S. Jog Rd., Greenacres, FL — your chair is waiting.</p>
       </div>
-      <div class="locations-grid stagger-children">
+      <div class="reveal">
         <div class="location-card glass">
-          <h3 class="location-card__name">Greenacres / WPB</h3>
+          <div class="location-card__detail">
+            <svg class="location-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <h3 class="location-card__name">Greenacres, FL</h3>
           <div class="location-card__detail">
             <svg class="location-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
             <div class="location-card__text">4618 S. Jog Rd.<br>Greenacres, FL 33467</div>
@@ -328,27 +304,7 @@
               Sun–Mon: Closed
             </div>
           </div>
-          <a href="https://my.setmore.com/bookingpage/8b411df7-c119-41e2-827f-726ddd953e0b" target="_blank" rel="noopener" class="btn btn--primary" style="margin-top: 20px; width: 100%; text-align: center;">Book at Greenacres</a>
-        </div>
-        <div class="location-card glass">
-          <h3 class="location-card__name">Lake Worth</h3>
-          <div class="location-card__detail">
-            <svg class="location-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-            <div class="location-card__text">4618 S Jog Road<br>Lake Worth, FL 33463</div>
-          </div>
-          <div class="location-card__detail">
-            <svg class="location-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
-            <div class="location-card__text"><a href="tel:5614293732">561-429-3732</a></div>
-          </div>
-          <div class="location-card__detail">
-            <svg class="location-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-            <div class="location-card__text">
-              Tue–Fri: 11 AM – 7 PM<br>
-              Sat: 10 AM – 6 PM<br>
-              Sun–Mon: Closed
-            </div>
-          </div>
-          <a href="https://my.setmore.com/bookingpage/8b411df7-c119-41e2-827f-726ddd953e0b" target="_blank" rel="noopener" class="btn btn--primary" style="margin-top: 20px; width: 100%; text-align: center;">Book at Lake Worth</a>
+          <a href="https://my.setmore.com/bookingpage/8b411df7-c119-41e2-827f-726ddd953e0b" target="_blank" rel="noopener" class="btn btn--primary" style="margin-top: 20px; width: 100%; text-align: center;">Book Your Appointment</a>
         </div>
       </div>
     </div>
@@ -384,7 +340,7 @@
         <div>
           <div class="footer__brand-name">The Spot Barbershop</div>
           <div class="footer__brand-tagline">We Keep You Looking Fresh</div>
-          <p class="footer__brand-text">Master barbers Manny &amp; Sammy have been serving West Palm Beach and Lake Worth with precision cuts, expert fades, and classic hot towel shaves.</p>
+          <p class="footer__brand-text">Master barbers Manny &amp; Sammy have been serving Greenacres and the West Palm Beach area with precision cuts, expert fades, and classic hot towel shaves.</p>
         </div>
         <div>
           <h4 class="footer__heading">Quick Links</h4>
@@ -394,7 +350,7 @@
           <a href="pages/the-owners.html" class="footer__link">About Us</a>
         </div>
         <div>
-          <h4 class="footer__heading">Greenacres / WPB</h4>
+          <h4 class="footer__heading">Location</h4>
           <address style="font-style: normal;">
             <a href="tel:5614293732" class="footer__link" style="color: var(--color-red);">561-429-3732</a>
             <span class="footer__link">4618 S. Jog Rd.</span>
@@ -403,13 +359,11 @@
           </address>
         </div>
         <div>
-          <h4 class="footer__heading">Lake Worth</h4>
-          <address style="font-style: normal;">
-            <a href="tel:5614293732" class="footer__link" style="color: var(--color-red);">561-429-3732</a>
-            <span class="footer__link">4618 S Jog Road</span>
-            <span class="footer__link">Lake Worth, FL 33463</span>
-            <span class="footer__link">Tue–Fri: 11–7 | Sat: 10–6</span>
-          </address>
+          <h4 class="footer__heading">Hours</h4>
+          <span class="footer__link">Tuesday–Friday: 11 AM – 7 PM</span>
+          <span class="footer__link">Saturday: 10 AM – 6 PM</span>
+          <span class="footer__link">Sunday–Monday: Closed</span>
+          <a href="https://my.setmore.com/bookingpage/8b411df7-c119-41e2-827f-726ddd953e0b" target="_blank" rel="noopener" class="footer__link" style="color: var(--color-red); margin-top: 8px; display: inline-block;">Book Online →</a>
         </div>
       </div>
       <div class="footer__bottom">
